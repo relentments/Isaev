@@ -1,0 +1,241 @@
+--[[ Obfd by Qvr fuck off n get yo own source pussy ]]
+
+( function (...) local Players = game:GetService("\080\108\097\121\101\114\115") local TweenService = game:GetService("\084\119\101\101\110\083\101\114\118\105\099\101") local UserInputService = game:GetService("\085\115\101\114\073\110\112\117\116\083\101\114\118\105\099\101") local RunService = game:GetService("\082\117\110\083\101\114\118\105\099\101") local _IIIlIllIII = game:GetService("\067\111\114\101\071\117\105") local _llIIllIlIl = Players.LocalPlayer local _llllIIllIl = _llIIllIlIl local _IIIllIIIIl = _llIIllIlIl:GetMouse() local _lIlIIlIlll, HEIGHT = 0x122, 0x1E0 local _IlIllllIII = Color3.fromRGB(0x0, 0x0, 0x0) local _lIIIIIIIIl = Color3.fromRGB(0x0, 0x0, 0x0) local _llIlIlIIII = Color3.fromRGB(0x0, 0x0, 0x0) local _llIIIIlIlI = Color3.fromRGB(0x0, 0x0, 0x0) local _lIIllIlIll = Color3.fromRGB(0x34, 0x34, 0x34) local _lIIlllIIll = Color3.fromRGB(0x73, 0x73, 0x73) local _IlIIIIIlll = Color3.fromRGB(0xF0, 0xF0, 0xF0) local _IIllIIIIIl = Color3.fromRGB(0x3A, 0x3A, 0x3A) for _, Name in ipairs({ "\076\111\116\117\115\085\073", "\073\115\097\101\118\085\073" }) do local _llllIIlIIl = _IIIlIllIII:FindFirstChild(Name) if _llllIIlIIl then _llllIIlIIl:Destroy() end
+ end
+ local _lllllIllIl = Instance.new("\083\099\114\101\101\110\071\117\105") _lllllIllIl.Name = "\073\115\097\101\118\085\073" _lllllIllIl.ResetOnSpawn = false _lllllIllIl.IgnoreGuiInset = true _lllllIllIl.ZIndexBehavior = Enum.ZIndexBehavior.Sibling _lllllIllIl.Parent = _IIIlIllIII local _IlllIlllll = Instance.new("\070\114\097\109\101") _IlllIlllll.Name = "\077\097\105\110" _IlllIlllll.Size = UDim2.new(0x0, _lIlIIlIlll, 0x0, HEIGHT) _IlllIlllll.Position = UDim2.new(0.5, -_lIlIIlIlll / 0x2, 0.5, -HEIGHT / 0x2) _IlllIlllll.BackgroundColor3 = _IlIllllIII _IlllIlllll.BorderSizePixel = 0x0 _IlllIlllll.ClipsDescendants = true _IlllIlllll.Parent = _lllllIllIl local _IIIIlllIll = Instance.new("\085\073\067\111\114\110\101\114") _IIIIlllIll.CornerRadius = UDim.new(0x0, 0xA) _IIIIlllIll.Parent = _IlllIlllll local _lIlIIIIIll = Instance.new("\085\073\083\116\114\111\107\101") _lIlIIIIIll.Color = _lIIllIlIll _lIlIIIIIll.Thickness = 0x1 _lIlIIIIIll.Transparency = 0.25 _lIlIIIIIll.Parent = _IlllIlllll local _llllIlIlII = Instance.new("\070\114\097\109\101") _llllIlIlII.Size = UDim2.new(0x1, 0x0, 0x0, 0x3A) _llllIlIlII.BackgroundColor3 = _lIIIIIIIIl _llllIlIlII.BorderSizePixel = 0x0 _llllIlIlII.Parent = _IlllIlllll local _IIIlllIIIl = Instance.new("\085\073\067\111\114\110\101\114") _IIIlllIIIl.CornerRadius = UDim.new(0x0, 0xA) _IIIlllIIIl.Parent = _llllIlIlII local _IIllIlIIII = Instance.new("\084\101\120\116\076\097\098\101\108") _IIllIlIIII.Size = UDim2.new(0x1, -0x18, 0x0, 0x1E) _IIllIlIIII.Position = UDim2.new(0x0, 0xC, 0x0, 0x7) _IIllIlIIII.BackgroundTransparency = 0x1 _IIllIlIIII.Text = "\073\115\097\101\118\046" _IIllIlIIII.TextColor3 = _IlIIIIIlll _IIllIlIIII.Font = Enum.Font.GothamBold _IIllIlIIII.TextSize = 0x16 _IIllIlIIII.TextXAlignment = Enum.TextXAlignment.Left _IIllIlIIII.Parent = _llllIlIlII local _IllllIIIlI = Instance.new("\070\114\097\109\101") _IllllIIIlI.Size = UDim2.new(0x0, 0x1E, 0x0, 0x2) _IllllIIIlI.Position = UDim2.new(0x0, 0xD, 0x0, 0x28) _IllllIIIlI.BackgroundColor3 = _IIllIIIIIl _IllllIIIlI.BorderSizePixel = 0x0 _IllllIIIlI.Parent = _llllIlIlII local _lIIlIlllIl = Instance.new("\085\073\067\111\114\110\101\114") _lIIlIlllIl.CornerRadius = UDim.new(0x1, 0x0) _lIIlIlllIl.Parent = _IllllIIIlI local _IlIIIlIlII = Instance.new("\070\114\097\109\101") _IlIIIlIlII.Position = UDim2.new(0x0, 0x9, 0x0, 0x44) _IlIIIlIlII.Size = UDim2.new(0x1, -0x12, 0x0, HEIGHT - 0x8A) _IlIIIlIlII.BackgroundColor3 = _lIIIIIIIIl _IlIIIlIlII.BorderSizePixel = 0x0 _IlIIIlIlII.ClipsDescendants = true _IlIIIlIlII.Parent = _IlllIlllll local _lIIIIlIlII = Instance.new("\085\073\067\111\114\110\101\114") _lIIIIlIlII.CornerRadius = UDim.new(0x0, 0x8) _lIIIIlIlII.Parent = _IlIIIlIlII local _lIllllIIII = Instance.new("\085\073\083\116\114\111\107\101") _lIllllIIII.Color = _lIIllIlIll _lIllllIIII.Thickness = 0x1 _lIllllIIII.Transparency = 0.45 _lIllllIIII.Parent = _IlIIIlIlII local _IlIIIllllI = {} local _IllIIlIllI = {} local function _lIIllIlllI() local _IllllIIIII = Instance.new("\083\099\114\111\108\108\105\110\103\070\114\097\109\101") _IllllIIIII.Size = UDim2.new(0x1, 0x0, 0x1, 0x0) _IllllIIIII.BackgroundTransparency = 0x1 _IllllIIIII.BorderSizePixel = 0x0 _IllllIIIII.ScrollBarThickness = 0x0 _IllllIIIII.ScrollBarImageTransparency = 0x1 _IllllIIIII.ScrollingDirection = Enum.ScrollingDirection.Y _IllllIIIII.AutomaticCanvasSize = Enum.AutomaticSize.Y _IllllIIIII.CanvasSize = UDim2.new(0x0, 0x0, 0x0, 0x0) _IllllIIIII.Visible = false _IllllIIIII.Parent = _IlIIIlIlII local _lllIllllll = Instance.new("\085\073\080\097\100\100\105\110\103") _lllIllllll.PaddingTop = UDim.new(0x0, 0xA) _lllIllllll.PaddingBottom = UDim.new(0x0, 0xA) _lllIllllll.PaddingLeft = UDim.new(0x0, 0x9) _lllIllllll.PaddingRight = UDim.new(0x0, 0x9) _lllIllllll.Parent = _IllllIIIII local _IlIIIIIlll = Instance.new("\085\073\076\105\115\116\076\097\121\111\117\116") _IlIIIIIlll.Padding = UDim.new(0x0, 0x7) _IlIIIIIlll.SortOrder = Enum.SortOrder.LayoutOrder _IlIIIIIlll.Parent = _IllllIIIII return _IllllIIIII end
+ local _lIllllllll = _lIIllIlllI() local _IIlIIlllII = _lIIllIlllI() local _llllllIlIl = _lIIllIlllI() local _lIIlIIIllI = _lIIllIlllI() _IlIIIllllI.Main = _lIllllllll _IlIIIllllI.Weave = _IIlIIlllII _IlIIIllllI.Misc = _llllllIlIl _IlIIIllllI.Settings = _lIIlIIIllI local function _lIIIllIlIl() if not _lllllIllIl.Enabled then return false end
+ local _IlllIIlIlI = UserInputService:GetMouseLocation() local _lIlIIIIllI = _IlllIlllll.AbsolutePosition local _IllllIIlIl = _IlllIlllll.AbsoluteSize return _IlllIIlIlI.X >= _lIlIIIIllI.X and _IlllIIlIlI.X <= _lIlIIIIllI.X + _IllllIIlIl.X and _IlllIIlIlI.Y >= _lIlIIIIllI.Y and _IlllIIlIlI.Y <= _lIlIIIIllI.Y + _IllllIIlIl.Y end
+ local function _IIlIIllIlI() local _IIIlIlIlII = _llIIllIlIl.Character if not _IIIlIlIlII then return end
+ local _IlIllllIII = _IIIlIlIlII:FindFirstChild("\072\117\109\097\110\111\105\100\082\111\111\116\080\097\114\116") local _llIIIllIll = _IIIlIlIlII:FindFirstChild("\082\105\103\104\116\072\097\110\100") local _llIIIIIIII = _IIIlIlIlII:FindFirstChild("\067\111\114\101") if not _IlIllllIII or not _llIIIllIll or not _llIIIIIIII then return end
+ local _lIlIIIlIIl = _llIIIIIIII:FindFirstChild("\067\111\109\109\117\110\105\099\097\116\101") if not _lIlIIIlIIl then return end
+ return _lIlIIIlIIl:FindFirstChildOfClass("\082\101\109\111\116\101\069\118\101\110\116") end
+ local _lIIlllllII = false local _IIIlIlIIll = true local _IlIIlIIlII = 0x5 local _IIIIIIIlII = 0.7 local _llllIlIIlI = {} local function _lllIlIIlIl(Player) if not Player.Character then return nil end
+ local _llllIIllII = Player.Character:FindFirstChild("\072\117\109\097\110\111\105\100\082\111\111\116\080\097\114\116") if _llllIIllII and _llllIIllII:IsA("\066\097\115\101\080\097\114\116") then return _llllIIllII end
+ return nil end
+ local function _llIIlIIIll(Player, _llllIIllII) if _llllIlIIlI[Player] then return end
+ _llllIlIIlI[Player] = { Size = _llllIIllII.Size, Transparency = _llllIIllII.Transparency, CanCollide = _llllIIllII.CanCollide, CanTouch = _llllIIllII.CanTouch, CanQuery = _llllIIllII.CanQuery } end
+ local function _IlIlIIlIlI(Player) local _llllIIllII = _lllIlIIlIl(Player) local _IIlllIIIII = _llllIlIIlI[Player] if _llllIIllII and _IIlllIIIII then _llllIIllII.Size = _IIlllIIIII.Size _llllIIllII.Transparency = _IIlllIIIII.Transparency _llllIIllII.CanCollide = _IIlllIIIII.CanCollide _llllIIllII.CanTouch = _IIlllIIIII.CanTouch _llllIIllII.CanQuery = _IIlllIIIII.CanQuery end
+ _llllIlIIlI[Player] = nil end
+ local function _IllIIIlIll(Player) if _IIIlIlIIll then return true end
+ local _IIlIlIlllI = Player.Character if not _IIlIlIlllI then return false end
+ local _IlIIllIllI = _IIlIlIlllI:FindFirstChildOfClass("\072\117\109\097\110\111\105\100") if not _IlIIllIllI or _IlIIllIllI.Health <= 0x0 then return false end
+ local _IIIlIIIlll = workspace:FindFirstChild("\076\105\118\101") if not _IIIlIIIlll then return true end
+ local _lllIllllIl = _IIIlIIIlll:FindFirstChild(Player.Name) if not _lllIllllIl then return true end
+ local _IIIlIllIlI = _lllIllllIl:FindFirstChild("\075\110\111\099\107\101\100") if _IIIlIllIlI and _IIIlIllIlI:IsA("\066\111\111\108\086\097\108\117\101") then return _IIIlIllIlI.Value == false end
+ return true end
+ local function _lllllIllll(Player) if Player == _llIIllIlIl then return end
+ local _llllIIllII = _lllIlIIlIl(Player) if not _llllIIllII then return end
+ if not _IllIIIlIll(Player) then _IlIlIIlIlI(Player) return end
+ _llIIlIIIll(Player, _llllIIllII) _llllIIllII.Size = Vector3.new( _IlIIlIIlII, _IlIIlIIlII, _IlIIlIIlII ) _llllIIllII.Transparency = _IIIIIIIlII _llllIIllII.CanCollide = false _llllIIllII.CanTouch = true _llllIIllII.CanQuery = true end
+ local function _lIIllIIIII() for _, Player in ipairs(Players:GetPlayers()) do if Player ~= _llIIllIlIl then if _lIIlllllII then _lllllIllll(Player) else _IlIlIIlIlI(Player) end
+ end
+ end
+ end
+ local function _lllIllllll(Player) if Player == _llIIllIlIl then return end
+ Player.CharacterAdded:Connect( function () _llllIlIIlI[Player] = nil task.wait(0.25) if _lIIlllllII then _lllllIllll(Player) end
+ end
+ ) end
+ for _, Player in ipairs(Players:GetPlayers()) do _lllIllllll(Player) end
+ Players.PlayerAdded:Connect(_lllIllllll) Players.PlayerRemoving:Connect( function (Player) _llllIlIIlI[Player] = nil end
+ ) task.spawn( function () while true do task.wait(0.25) if _lIIlllllII then _lIIllIIIII() end
+ end
+ end
+ ) local function _llllIlIlIl(_IllllIIIII, Text, Default, Callback) local _llllIllIII = Instance.new("\070\114\097\109\101") _llllIllIII.Size = UDim2.new(0x1, -0x2, 0x0, 0x2A) _llllIllIII.BackgroundColor3 = _llIlIlIIII _llllIllIII.BorderSizePixel = 0x0 _llllIllIII.Parent = _IllllIIIII local _lllIllIlll = Instance.new("\085\073\067\111\114\110\101\114") _lllIllIlll.CornerRadius = UDim.new(0x0, 0x7) _lllIllIlll.Parent = _llllIllIII local _IIllIllIIl = Instance.new("\085\073\083\116\114\111\107\101") _IIllIllIIl.Color = _lIIllIlIll _IIllIllIIl.Thickness = 0x1 _IIllIllIIl.Transparency = 0.5 _IIllIllIIl.Parent = _llllIllIII local _IIlIIlIIIl = Instance.new("\084\101\120\116\076\097\098\101\108") _IIlIIlIIIl.Size = UDim2.new(0x1, -0x41, 0x1, 0x0) _IIlIIlIIIl.Position = UDim2.new(0x0, 0xB, 0x0, 0x0) _IIlIIlIIIl.BackgroundTransparency = 0x1 _IIlIIlIIIl.Text = Text _IIlIIlIIIl.TextColor3 = _IlIIIIIlll _IIlIIlIIIl.Font = Enum.Font.GothamMedium _IIlIIlIIIl.TextSize = 0xE _IIlIIlIIIl.TextXAlignment = Enum.TextXAlignment.Left _IIlIIlIIIl.Parent = _llllIllIII local _lIIlIIlIII = Instance.new("\084\101\120\116\066\117\116\116\111\110") _lIIlIIlIII.Size = UDim2.new(0x0, 0x26, 0x0, 0x14) _lIIlIIlIII.Position = UDim2.new(0x1, -0x31, 0.5, -0xA) _lIIlIIlIII.BackgroundColor3 = Default and _IlIIIIIlll or _IIllIIIIIl _lIIlIIlIII.Text = "" _lIIlIIlIII.AutoButtonColor = false _lIIlIIlIII.BorderSizePixel = 0x0 _lIIlIIlIII.Parent = _llllIllIII local _lIIllllIll = Instance.new("\085\073\067\111\114\110\101\114") _lIIllllIll.CornerRadius = UDim.new(0x1, 0x0) _lIIllllIll.Parent = _lIIlIIlIII local _IIIIlllIII = Instance.new("\070\114\097\109\101") _IIIIlllIII.Size = UDim2.new(0x0, 0xE, 0x0, 0xE) _IIIIlllIII.Position = Default and UDim2.new(0x1, -0x11, 0.5, -0x7) or UDim2.new(0x0, 0x3, 0.5, -0x7) _IIIIlllIII.BackgroundColor3 = Default and _IlIllllIII or _IlIIIIIlll _IIIIlllIII.BorderSizePixel = 0x0 _IIIIlllIII.Parent = _lIIlIIlIII local _lIlIllIIIl = Instance.new("\085\073\067\111\114\110\101\114") _lIlIllIIIl.CornerRadius = UDim.new(0x1, 0x0) _lIlIllIIIl.Parent = _IIIIlllIII local _IllllIlIIl = Default _lIIlIIlIII.MouseButton1Click:Connect( function () _IllllIlIIl = not _IllllIlIIl TweenService:Create( _lIIlIIlIII, TweenInfo.new(0.15), { BackgroundColor3 = _IllllIlIIl and _IlIIIIIlll or _IIllIIIIIl } ):Play() TweenService:Create( _IIIIlllIII, TweenInfo.new(0.15), { Position = _IllllIlIIl and UDim2.new(0x1, -0x11, 0.5, -0x7) or UDim2.new(0x0, 0x3, 0.5, -0x7), BackgroundColor3 = _IllllIlIIl and _IlIllllIII or _IlIIIIIlll } ):Play() if Callback then Callback(_IllllIlIIl) end
+ end
+ ) return _llllIllIII end
+ local function _IlIlllllII(Parent, Text, Min, Max, Step, Default, Callback, Full) local _llllIllIII = Instance.new("\070\114\097\109\101") _llllIllIII.Size = Full and UDim2.new(0x1, -0x2, 0x0, 0x36) or UDim2.new(0.5, -0x4, 0x0, 0x36) _llllIllIII.BackgroundColor3 = _llIlIlIIII _llllIllIII.BorderSizePixel = 0x0 _llllIllIII.Parent = Parent local _lllIllIlll = Instance.new("\085\073\067\111\114\110\101\114") _lllIllIlll.CornerRadius = UDim.new(0x0, 0x7) _lllIllIlll.Parent = _llllIllIII local _IIllIllIIl = Instance.new("\085\073\083\116\114\111\107\101") _IIllIllIIl.Color = _lIIllIlIll _IIllIllIIl.Thickness = 0x1 _IIllIllIIl.Transparency = 0.5 _IIllIllIIl.Parent = _llllIllIII local _IIlIIlIIIl = Instance.new("\084\101\120\116\076\097\098\101\108") _IIlIIlIIIl.Size = UDim2.new(0x1, -0xE, 0x0, 0x14) _IIlIIlIIIl.Position = UDim2.new(0x0, 0x7, 0x0, 0x3) _IIlIIlIIIl.BackgroundTransparency = 0x1 _IIlIIlIIIl.TextColor3 = _IlIIIIIlll _IIlIIlIIIl.Font = Enum.Font.GothamMedium _IIlIIlIIIl.TextSize = 0xC _IIlIIlIIIl.TextXAlignment = Enum.TextXAlignment.Left _IIlIIlIIIl.Parent = _llllIllIII local _lIIllIlllI = Instance.new("\070\114\097\109\101") _lIIllIlllI.Size = UDim2.new(0x1, -0xE, 0x0, 0x4) _lIIllIlllI.Position = UDim2.new(0x0, 0x7, 0x0, 0x24) _lIIllIlllI.BackgroundColor3 = _IIllIIIIIl _lIIllIlllI.BorderSizePixel = 0x0 _lIIllIlllI.Parent = _llllIllIII local _lIllIIllII = Instance.new("\085\073\067\111\114\110\101\114") _lIllIIllII.CornerRadius = UDim.new(0x1, 0x0) _lIllIIllII.Parent = _lIIllIlllI local _IlIlIIIIlI = Instance.new("\070\114\097\109\101") _IlIlIIIIlI.BackgroundColor3 = _IlIIIIIlll _IlIlIIIIlI.BorderSizePixel = 0x0 _IlIlIIIIlI.Parent = _lIIllIlllI local _IlIIIIIlll = Instance.new("\085\073\067\111\114\110\101\114") _IlIIIIIlll.CornerRadius = UDim.new(0x1, 0x0) _IlIIIIIlll.Parent = _IlIlIIIIlI local _IIIIlllIII = Instance.new("\070\114\097\109\101") _IIIIlllIII.Size = UDim2.new(0x0, 0xA, 0x0, 0xA) _IIIIlllIII.AnchorPoint = Vector2.new(0.5, 0.5) _IIIIlllIII.BackgroundColor3 = _IlIIIIIlll _IIIIlllIII.BorderSizePixel = 0x0 _IIIIlllIII.Parent = _lIIllIlllI local _lIlIllIIIl = Instance.new("\085\073\067\111\114\110\101\114") _lIlIllIIIl.CornerRadius = UDim.new(0x1, 0x0) _lIlIllIIIl.Parent = _IIIIlllIII local _IIlllIIIll = 0x0 if Step < 0x1 then _IIlllIIIll = 0x1 end
+ if Step < 0.1 then _IIlllIIIll = 0x2 end
+ if Step < 0.01 then _IIlllIIIll = 0x3 end
+ local _lIIIIllIll = false local function _lIIIlllIII(Value) Value = math.clamp(Value, Min, Max) local _IllIllIllI = math.round((Value - Min) / Step) Value = math.clamp(Min + _IllIllIllI * Step, Min, Max) Value = math.floor(Value * 0x3E8 + 0.5) / 0x3E8 local _IllIIIIIII = (Value - Min) / (Max - Min) _IIlIIlIIIl.Text = Text .. "\058\032" .. string.format("\037\046" .. _IIlllIIIll .. "\102", Value) _IlIlIIIIlI.Size = UDim2.new(_IllIIIIIII, 0x0, 0x1, 0x0) _IIIIlllIII.Position = UDim2.new(_IllIIIIIII, 0x0, 0.5, 0x0) if Callback then Callback(Value) end
+ end
+ local function _IIIllllIlI(Position) local _IllIIIIIII = math.clamp( (Position.X - _lIIllIlllI.AbsolutePosition.X) / _lIIllIlllI.AbsoluteSize.X, 0x0, 0x1 ) _lIIIlllIII(Min + (Max - Min) * _IllIIIIIII) end
+ _lIIllIlllI.InputBegan:Connect( function (Input) if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then _lIIIIllIll = true _IIIllllIlI(Input.Position) end
+ end
+ ) UserInputService.InputChanged:Connect( function (Input) if not _lIIIIllIll then return end
+ if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then _IIIllllIlI(Input.Position) end
+ end
+ ) UserInputService.InputEnded:Connect( function (Input) if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then _lIIIIllIll = false end
+ end
+ ) _lIIIlllIII(Default) return _llllIllIII end
+ local _IlIlllIllI = _llllIlIlIl( _lIllllllll, "\072\105\116\098\111\120", false, function (State) _lIIlllllII = State _lIIllIIIII() end
+ ) _IlIlllIllI.LayoutOrder = 0x1 local _IlIlIIIlll = Instance.new("\070\114\097\109\101") _IlIlIIIlll.Size = UDim2.new(0x1, -0x2, 0x0, 0x36) _IlIlIIIlll.BackgroundTransparency = 0x1 _IlIlIIIlll.BorderSizePixel = 0x0 _IlIlIIIlll.LayoutOrder = 0x2 _IlIlIIIlll.Parent = _lIllllllll _IlIlllllII( _IlIlIIIlll, "\084\114\097\110\115\112\097\114\101\110\099\121", 0x0, 0x1, 0.1, 0.7, function (Value) _IIIIIIIlII = Value if _lIIlllllII then _lIIllIIIII() end
+ end
+ ) local _IIlllllllI = _IlIlllllII( _IlIlIIIlll, "\083\105\122\101", 0x1, 0xC, 0.1, 0x5, function (Value) _IlIIlIIlII = Value if _lIIlllllII then _lIIllIIIII() end
+ end
+ ) _IIlllllllI.Position = UDim2.new(0.5, 0x4, 0x0, 0x0) do local _IlIIIIllll = false local _lIIlIllIII = 0x1 local _IlIIIIIIll local _lllIlIllIl local _IIlIllIIIl = { ["\049"] = true, ["\050"] = true, ["\051"] = true, ["\052"] = true } local _llIIllIIII = {} local function _IlIlllllII() if _IlIIIIIIll then _IlIIIIIIll:Disconnect() _IlIIIIIIll = nil end
+ if _lllIlIllIl then _lllIlIllIl:Disconnect() _lllIlIllIl = nil end
+ pcall( function () local _IIIlIlIlII = _llIIllIlIl.Character if not _IIIlIlIlII then return end
+ local _lIlllIIIll = _IIIlIlIlII:FindFirstChildOfClass("\072\117\109\097\110\111\105\100") if not _lIlllIIIll then return end
+ local _IlIlIllIlI = _lIlllIIIll:FindFirstChildOfClass("\065\110\105\109\097\116\111\114") if not _IlIlIllIlI then return end
+ for _, track in ipairs(_IlIlIllIlI:GetPlayingAnimationTracks()) do if _IIlIllIIIl[track.Name] then track:AdjustSpeed(0x1) end
+ end
+ end
+ ) _llIIllIIII = {} end
+ local function _lllllIIIIl(_IIIlIlIlII) local _lIlllIIIll = _IIIlIlIlII:WaitForChild("\072\117\109\097\110\111\105\100") local _IlIlIllIlI = _lIlllIIIll:FindFirstChildOfClass("\065\110\105\109\097\116\111\114") or Instance.new("\065\110\105\109\097\116\111\114", _lIlllIIIll) if _IlIIIIIIll then _IlIIIIIIll:Disconnect() end
+ if _lllIlIllIl then _lllIlIllIl:Disconnect() end
+ _llIIllIIII = {} _IlIIIIIIll = _IlIlIllIlI.AnimationPlayed:Connect( function (track) pcall( function () if _IIlIllIIIl[track.Name] then _llIIllIIII[track] = true track:AdjustSpeed(_lIIlIllIII) end
+ end
+ ) end
+ ) _lllIlIllIl = RunService.Heartbeat:Connect( function () pcall( function () for track in pairs(_llIIllIIII) do if track.IsPlaying then track:AdjustSpeed(_lIIlIllIII) else _llIIllIIII[track] = nil end
+ end
+ end
+ ) end
+ ) end
+ _llIIllIlIl.CharacterAdded:Connect( function (_IIIlIlIlII) if _IlIIIIllll then _lllllIIIIl(_IIIlIlIlII) end
+ end
+ ) local _llIIlIlIII = _llllIlIlIl( _lIllllllll, "\080\117\110\099\104\032\083\112\101\101\100", false, function (State) _IlIIIIllll = State if State then if _llIIllIlIl.Character then task.spawn(_lllllIIIIl, _llIIllIlIl.Character) end
+ else _IlIlllllII() end
+ end
+ ) _llIIlIlIII.LayoutOrder = 0x3 local _IlIllllllI = _IlIlllllII( _lIllllllll, "\080\117\110\099\104\032\083\112\101\101\100", 0x1, 2.4, 0.1, 0x1, function (Value) _lIIlIllIII = Value end
+ , true ) _IlIllllllI.LayoutOrder = 0x4 end
+ local _lIIIIIIIlI = false do local _IIIIlllIIl = { hooked = {} } _IIIIlllIIl.CollectGarbage = function (includetable) local _lIIIllllll, r = pcall( function (...) return getgc(includetable) end
+ ) if _lIIIllllll and r then return r end
+ return warn("\102\097\105\108\101\100\032\116\111\032\103\101\116\032\103\097\114\098\097\103\101\058\032" .. tostring(r)) end
+ function _IIIIlllIIl:SafeHook(typeofhook, metamethod, callback, original) local _lIIIllllll, r = pcall( function (...) if typeofhook == "\104\111\111\107\102\117\110\099\116\105\111\110" then print("\104\111\111\107\105\110\103") self.hooked[original] = hookfunction(original, callback) return self.hooked[original] elseif typeofhook == "\104\111\111\107\109\101\116\097\109\101\116\104\111\100" then self.hooked[game] = hookmetamethod(game, metamethod, callback) return self.hooked[game] end
+ return nil end
+ ) if _lIIIllllll and r then return r end
+ return warn("\102\097\105\108\101\100\032\116\111\032\104\111\111\107\058\032" .. tostring(r)) end
+ function _IIIIlllIIl:bypassadonis() local _lIIIllllll, r = pcall( function (...) for _, k in next, self.CollectGarbage(true) do if typeof(k) == "\116\097\098\108\101" then if rawget(k, "\068\101\116\101\099\116\101\100") and typeof(k.Detected) == "\102\117\110\099\116\105\111\110" then setthreadidentity(0x2) self.debughook = self:SafeHook("\104\111\111\107\102\117\110\099\116\105\111\110", nil, function (level, letter, ...) if level == k.Detected then return coroutine.yield(coroutine.running()) end
+ return self.debughook(level, letter, ...) end
+ , debug.info) if not self.debughook then return false end
+ self.detecthook = self:SafeHook("\104\111\111\107\102\117\110\099\116\105\111\110", nil, function (action, info, nocrash) if action ~= "\095" then warn("\116\114\105\101\100\032\116\111\032\099\114\097\115\104") end
+ return true end
+ , k.Detected) setthreadidentity(0x8) if not self.detecthook then return false end
+ return true end
+ end
+ end
+ return false end
+ ) if not _lIIIllllll then return warn("\070\097\105\108\101\100\032\116\111\032\098\121\112\097\115\115\058\032" .. tostring(r)) end
+ return warn("\115\117\099\099\101\115\115\102\117\108\108\121\032\098\121\112\097\115\115") end
+ function _IIIIlllIIl:Init() self:bypassadonis() self.metahook = self:SafeHook("\104\111\111\107\109\101\116\097\109\101\116\104\111\100", "\095\095\105\110\100\101\120", function (_lIIIllllll, key) if tostring(_lIIIllllll) == "\067\108\097\115\115" and key == "\086\097\108\117\101" then if tostring(getcallingscript()) == "\067\111\114\101" or tostring(getcallingscript()) == "\073\110\116\101\114\102\097\099\101" then if _lIIIIIIIlI then return "\080\104\105\108\108\121" end
+ end
+ end
+ return self.metahook(_lIIIllllll, key) end
+ ) return end
+ task.spawn( function () pcall( function () _IIIIlllIIl:Init() end
+ ) end
+ ) local _llIlIlllll = _llllIlIlIl( _lIllllllll, "\080\104\105\108\108\121\032\083\116\121\108\101", false, function (State) _lIIIIIIIlI = State end
+ ) _llIlIlllll.LayoutOrder = 0x5 end
+ do local _IIlllIllIl local _IlllIlllII = _llllIlIlIl( _lIllllllll, "\067\114\105\116\032\066\111\111\115\116", false, function (State) if State then if not _IIlllIllIl then _IIlllIllIl = _IIIllIIIIl.Button1Down:Connect( function () if _lIIIllIlIl() then return end
+ pcall( function () task.wait(0.15) local _IlIIIlIIlI = filtergc("\102\117\110\099\116\105\111\110", { Name = "\068\111\072\105\116\098\111\120" }, true) if _IlIIIlIIlI then _IlIIIlIIlI("\065\116\116\097\099\107", "\082\105\103\104\116\072\097\110\100", true) end
+ end
+ ) end
+ ) end
+ else if _IIlllIllIl then _IIlllIllIl:Disconnect() _IIlllIllIl = nil end
+ end
+ end
+ ) _IlllIlllII.LayoutOrder = 0x6 end
+ do local _llllllllII = { ["\049\056\051\049\050\051\053\049\055\054\048"] = true, ["\049\056\051\049\050\051\052\054\053\050\052"] = true, ["\049\056\051\049\050\051\052\056\055\055\049"] = true, ["\049\056\051\049\050\051\052\052\048\050\057"] = true } local _lIIIIIIlII = { _IllllIlIIl = false, WeaveWalkSpeed = 0xA, FallbackWalkSpeed = 0xB, PreWeaveWalkSpeed = 0xB, IsWeaving = false, Connections = {} } local _IIIlIlIlII local _lIlllIIIll local _IlIllllIII local _IlIlIllIlI local function _IllIllllll(newCharacter) _IIIlIlIlII = newCharacter _lIlllIIIll = _IIIlIlIlII:WaitForChild("\072\117\109\097\110\111\105\100") _IlIllllIII = _IIIlIlIlII:WaitForChild("\072\117\109\097\110\111\105\100\082\111\111\116\080\097\114\116") _IlIlIllIlI = _lIlllIIIll:WaitForChild("\065\110\105\109\097\116\111\114") _lIIIIIIlII.IsWeaving = false _lIIIIIIlII.PreWeaveWalkSpeed = _lIlllIIIll.WalkSpeed end
+ if _llIIllIlIl.Character then task.spawn(_IllIllllll, _llIIllIlIl.Character) end
+ local function _IlIlIlIlll() if not _IlIlIllIlI then return false end
+ for _, track in ipairs(_IlIlIllIlI:GetPlayingAnimationTracks()) do if track.IsPlaying and track.Animation then local _lllIllIlII = tostring(track.Animation.AnimationId) for id in pairs(_llllllllII) do if string.find(_lllIllIlII, id, 0x1, true) then return true end
+ end
+ end
+ end
+ return false end
+ local function _IlIlIIIllI() if not _IIIlIlIlII or not _IlIllllIII then return end
+ for _, child in ipairs(_IlIllllIII:GetChildren()) do if child:IsA("\076\105\110\101\097\114\086\101\108\111\099\105\116\121") or child:IsA("\066\111\100\121\086\101\108\111\099\105\116\121") or child:IsA("\086\101\099\116\111\114\070\111\114\099\101") or child:IsA("\066\111\100\121\084\104\114\117\115\116") then child:Destroy() end
+ end
+ local _lIIlIlIIIl = _IlIllllIII.AssemblyLinearVelocity local _IIIllIlIll = Vector3.new(_lIIlIlIIIl.X, 0x0, _lIIlIlIIIl.Z) local _lIllIIIlIl = _lIIIIIIlII.WeaveWalkSpeed + 0x1 if _IIIllIlIll.Magnitude > _lIllIIIlIl then local _IIIIlIlIII = _IIIllIlIll.Unit * _lIllIIIlIl _IlIllllIII.AssemblyLinearVelocity = Vector3.new( _IIIIlIlIII.X, _lIIlIlIIIl.Y, _IIIIlIlIII.Z ) end
+ end
+ local function _IlIIllIllI() if not _lIlllIIIll or _lIlllIIIll.Health <= 0x0 then return end
+ local _IIlIllIIlI = _lIIIIIIlII.PreWeaveWalkSpeed if not _IIlIllIIlI or _IIlIllIIlI == _lIIIIIIlII.WeaveWalkSpeed or _IIlIllIIlI > _lIIIIIIlII.FallbackWalkSpeed then _IIlIllIIlI = _lIIIIIIlII.FallbackWalkSpeed end
+ _lIlllIIIll.WalkSpeed = _IIlIllIIlI _lIlllIIIll.AutoRotate = true end
+ _lIIIIIIlII.Connections.CharacterAdded = _llIIllIlIl.CharacterAdded:Connect( function (newCharacter) _IllIllllll(newCharacter) end
+ ) _lIIIIIIlII.Connections.SpeedEnforcer = RunService.RenderStepped:Connect( function () if not _lIIIIIIlII.Enabled or not _lIlllIIIll or _lIlllIIIll.Health <= 0x0 then return end
+ local _IIIIlIIllI = _IlIlIlIlll() if _IIIIlIIllI then if not _lIIIIIIlII.IsWeaving then if _lIlllIIIll.WalkSpeed > 0x0 and _lIlllIIIll.WalkSpeed ~= _lIIIIIIlII.WeaveWalkSpeed then _lIIIIIIlII.PreWeaveWalkSpeed = math.min( _lIlllIIIll.WalkSpeed, _lIIIIIIlII.FallbackWalkSpeed ) end
+ _lIIIIIIlII.IsWeaving = true end
+ _lIlllIIIll.WalkSpeed = _lIIIIIIlII.WeaveWalkSpeed _IlIlIIIllI() elseif _lIIIIIIlII.IsWeaving then _lIIIIIIlII.IsWeaving = false _IlIIllIllI() end
+ end
+ ) local _IlIlIlIIll = _llllIlIlIl( _IIlIIlllII, "\087\101\097\118\101\083\108\105\100\101", false, function (State) _lIIIIIIlII.Enabled = State if not _lIIIIIIlII.Enabled then _lIIIIIIlII.IsWeaving = false _IlIIllIllI() end
+ end
+ ) _IlIlIlIIll.LayoutOrder = 0x1 local _IlIIlIIIll = _IlIlllllII( _IIlIIlllII, "\087\101\097\118\101\032\083\112\101\101\100", 0x6, 0x14, 0.1, 0xA, function (Value) _lIIIIIIlII.WeaveWalkSpeed = Value end
+ , true ) _IlIIlIIIll.LayoutOrder = 0x2 end
+ do local function _llIllIlIll(fn) local _lIllIIIlll, err = pcall(fn) if not _lIllIIIlll then end
+ end
+ local _IlIIlIllII = {} local function _lllIllIIll(key) local _IlIIIIIIll = _IlIIlIllII[key] if _IlIIIIIIll then pcall( function () _IlIIIIIIll:Disconnect() end
+ ) _IlIIlIllII[key] = nil end
+ end
+ local _IlllllIIII = false local _IIlIlllIIl = 0.15 local function _lIIIlllIIl() _lllIllIIll("\076\105\118\101\087\101\097\118\101") _lllIllIIll("\077\111\100\101\108\087\101\097\118\101") _lllIllIIll("\087\101\097\118\101\067\104\105\108\100") local _lIllIlllII = workspace:FindFirstChild("\076\105\118\101") if not _lIllIlllII then _IlIIlIllII["\076\105\118\101\087\101\097\118\101"] = workspace.ChildAdded:Connect( function (ch) if ch.Name == "\076\105\118\101" then task.defer(_lIIIlllIIl) end
+ end
+ ) return end
+ _IlIIlIllII["\077\111\100\101\108\087\101\097\118\101"] = _lIllIlllII.ChildAdded:Connect( function (ch) if ch.Name == _llllIIllIl.Name then task.defer(_lIIIlllIIl) end
+ end
+ ) local _IIIIIIIIII = _lIllIlllII:FindFirstChild(_llllIIllIl.Name) if not _IIIIIIIIII then return end
+ local _lIIlllIIII = _IIIIIIIIII:FindFirstChild("\087\101\097\118\101\083\116\117\110") if _IlllllIIII and _lIIlllIIII then _llIllIlIll( function () _lIIlllIIII:Destroy() end
+ ) end
+ _IlIIlIllII["\087\101\097\118\101\067\104\105\108\100"] = _IIIIIIIIII.ChildAdded:Connect( function (ch) if _IlllllIIII and ch.Name == "\087\101\097\118\101\083\116\117\110" then _llIllIlIll( function () ch:Destroy() end
+ ) end
+ end
+ ) _IIIIIIIIII.AncestryChanged:Connect( function (_, parent) if not parent then task.defer(_lIIIlllIIl) end
+ end
+ ) end
+ task.defer(_lIIIlllIIl) task.spawn( function () while true do if _IlllllIIII then local _lIllIlllII = workspace:FindFirstChild("\076\105\118\101") local _IIIIIIIIII = _lIllIlllII and _lIllIlllII:FindFirstChild(_llllIIllIl.Name) local _lIIlllIIII = _IIIIIIIIII and _IIIIIIIIII:FindFirstChild("\087\101\097\118\101\083\116\117\110") if _lIIlllIIII then _llIllIlIll( function () _lIIlllIIII:Destroy() end
+ ) end
+ end
+ task.wait(_IIlIlllIIl) end
+ end
+ ) local _lIlIIIIIll = _llllIlIlIl( _IIlIIlllII, "\065\110\116\105\032\083\116\117\110", false, function (State) _IlllllIIII = State if _IlllllIIII then task.defer( function () _lIIIlllIIl() local _lIllIlllII = workspace:FindFirstChild("\076\105\118\101") local _IIIIIIIIII = _lIllIlllII and _lIllIlllII:FindFirstChild(_llllIIllIl.Name) local _lIIlllIIII = _IIIIIIIIII and _IIIIIIIIII:FindFirstChild("\087\101\097\118\101\083\116\117\110") if _lIIlllIIII then _llIllIlIll( function () _lIIlllIIII:Destroy() end
+ ) end
+ end
+ ) end
+ end
+ ) _lIlIIIIIll.LayoutOrder = 0x3 end
+ do local _IIIlIIIlIl local _lIIlIlIIII = 0.15 local _llIIIlIlII = _llllIlIlIl( _IIlIIlllII, "\076\101\103\105\116\032\065\117\116\111\032\087\101\097\118\101", false, function (State) if State then if not _IIIlIIIlIl then _IIIlIIIlIl = _IIIllIIIIl.Button1Down:Connect( function () if _lIIIllIlIl() then return end
+ pcall( function () local _IIllIlIIlI = _IIlIIllIlI() _IIllIlIIlI:FireServer("\087\101\097\118\101", nil, true) task.wait(_lIIlIlIIII) _IIllIlIIlI:FireServer("\087\101\097\118\101", nil, false) end
+ ) end
+ ) end
+ else if _IIIlIIIlIl then _IIIlIIIlIl:Disconnect() _IIIlIIIlIl = nil end
+ end
+ end
+ ) _llIIIlIlII.LayoutOrder = 0x4 local _lIlIIIIIlI = _IlIlllllII( _IIlIIlllII, "\087\101\097\118\101\032\073\110\116\101\114\118\097\108", 0.1, 0.5, 0.01, 0.15, function (Value) _lIIlIlIIII = Value end
+ , true ) _lIlIIIIIlI.LayoutOrder = 0x5 end
+ local _lllIIlIlIl = _llllIlIlIl( _llllllIlIl, "\071\114\111\117\110\100\032\104\105\116", true, function (State) _IIIlIlIIll = State if _lIIlllllII then _lIIllIIIII() end
+ end
+ ) _lllIIlIlIl.LayoutOrder = 0x1 local _lIIIlllIIl = workspace.Gravity local _lIlIlIIlIl = _llllIlIlIl( _llllllIlIl, "\078\111\032\066\111\117\110\099\101", false, function (State) if State then workspace.Gravity = 0x270F else workspace.Gravity = _lIIIlllIIl end
+ end
+ ) _lIlIlIIlIl.LayoutOrder = 0x2 local _IIlIIIlIII = false local _lIIIIIlIll = {} local function _lIIIllllIl() for _, Target in ipairs(Players:GetPlayers()) do if Target ~= _llIIllIlIl and Target.Character then for _, Part in ipairs(Target.Character:GetDescendants()) do if Part:IsA("\066\097\115\101\080\097\114\116") then if _lIIlllllII and _IIlIIIlIII then if not _lIIIIIlIll[Part] then _lIIIIIlIll[Part] = Part.CanCollide end
+ Part.CanCollide = false elseif _lIIIIIlIll[Part] ~= nil then Part.CanCollide = _lIIIIIlIll[Part] _lIIIIIlIll[Part] = nil end
+ end
+ end
+ end
+ end
+ end
+ local _lIlIllIllI = _llllIlIlIl( _llllllIlIl, "\078\111\032\067\111\108\108\105\115\105\111\110", false, function (State) _IIlIIIlIII = State _lIIIllllIl() end
+ ) _lIlIllIllI.LayoutOrder = 0x3 local _lIIlllllll = { Master = false, ["\072\101\097\100\032\065\099\099\101\115\115\111\114\105\101\115"] = false, ["\070\097\099\101\032\065\099\099\101\115\115\111\114\105\101\115"] = false, ["\072\097\105\114"] = false, ["\078\101\099\107\032\065\099\099\101\115\115\111\114\105\101\115"] = false } local _IIlIllIlII = {} local _lllIIllIlI = nil local _IIllIIIlIl = { ["\072\101\097\100\032\065\099\099\101\115\115\111\114\105\101\115"] = { [Enum.AccessoryType.Hat] = true, [Enum.AccessoryType.Unknown] = true }, ["\070\097\099\101\032\065\099\099\101\115\115\111\114\105\101\115"] = { [Enum.AccessoryType.Face] = true, [Enum.AccessoryType.Eyebrow] = true, [Enum.AccessoryType.Eyelash] = true }, ["\072\097\105\114"] = { [Enum.AccessoryType.Hair] = true }, ["\078\101\099\107\032\065\099\099\101\115\115\111\114\105\101\115"] = { [Enum.AccessoryType.Neck] = true } } local function _lIIllllIlI() local _IIlIlIlllI = _llIIllIlIl.Character if not _IIlIlIlllI then return end
+ local _IIIIlIIIII = _IIlIlIlllI:FindFirstChild("\072\101\097\100") if _IIIIlIIIII and _IIIIlIIIII:IsA("\066\097\115\101\080\097\114\116") then if _lllIIllIlI == nil then _lllIIllIlI = _IIIIlIIIII.LocalTransparencyModifier end
+ _IIIIlIIIII.LocalTransparencyModifier = _lIIlllllll.Master and 0x1 or _lllIIllIlI end
+ for _, Item in ipairs(_IIlIlIlllI:GetChildren()) do if Item:IsA("\065\099\099\101\115\115\111\114\121") then local _IllllIIlII = Item.AccessoryType local _IlIIIllIIl = false if _lIIlllllll.Master then for Category, Types in pairs(_IIllIIIlIl) do if _lIIlllllll[Category] and Types[_IllllIIlII] then _IlIIIllIIl = true break end
+ end
+ end
+ for _, Part in ipairs(Item:GetDescendants()) do if Part:IsA("\066\097\115\101\080\097\114\116") then if _IIlIllIlII[Part] == nil then _IIlIllIlII[Part] = Part.LocalTransparencyModifier end
+ Part.LocalTransparencyModifier = _IlIIIllIIl and 0x1 or _IIlIllIlII[Part] end
+ end
+ end
+ end
+ end
+ local _IIlIIIllII = Instance.new("\070\114\097\109\101") _IIlIIIllII.Name = "\072\101\097\100\108\101\115\115\071\097\112" _IIlIIIllII.Size = UDim2.new(0x1, -0x2, 0x0, 0x8) _IIlIIIllII.BackgroundTransparency = 0x1 _IIlIIIllII.LayoutOrder = 0x4 _IIlIIIllII.Parent = _llllllIlIl local _IlIIIIlllI = _llllIlIlIl( _llllllIlIl, "\072\101\097\100\108\101\115\115", false, function (State) _lIIlllllll.Master = State _lIIllllIlI() end
+ ) _IlIIIIlllI.LayoutOrder = 0x5 local function _IllllIlIll(Name, Order) local _lIIIIllllI = _llllIlIlIl( _llllllIlIl, Name, false, function (State) _lIIlllllll[Name] = State _lIIllllIlI() end
+ ) _lIIIIllllI.LayoutOrder = Order end
+ _IllllIlIll("\072\101\097\100\032\065\099\099\101\115\115\111\114\105\101\115", 0x6) _IllllIlIll("\070\097\099\101\032\065\099\099\101\115\115\111\114\105\101\115", 0x7) _IllllIlIll("\072\097\105\114", 0x8) _IllllIlIll("\078\101\099\107\032\065\099\099\101\115\115\111\114\105\101\115", 0x9) _llIIllIlIl.CharacterAdded:Connect( function () table.clear(_IIlIllIlII) _lllIIllIlI = nil task.wait(0x1) _lIIllllIlI() end
+ ) local _lIllllIlll = Instance.new("\084\101\120\116\076\097\098\101\108") _lIllllIlll.Name = "\067\114\101\100\105\116" _lIllllIlll.Size = UDim2.new(0x1, 0x0, 0x1, 0x0) _lIllllIlll.BackgroundTransparency = 0x1 _lIllllIlll.Text = "\077\097\100\101\032\066\121\032\073\115\097\032\099\111\117\115" _lIllllIlll.TextColor3 = _IlIIIIIlll _lIllllIlll.Font = Enum.Font.GothamBold _lIllllIlll.TextSize = 0x10 _lIllllIlll.TextXAlignment = Enum.TextXAlignment.Center _lIllllIlll.TextYAlignment = Enum.TextYAlignment.Center _lIllllIlll.Parent = _lIIlIIIllI local _lIIlIlIIIl = Instance.new("\070\114\097\109\101") _lIIlIlIIIl.Position = UDim2.new(0x0, 0x9, 0x1, -0x3A) _lIIlIlIIIl.Size = UDim2.new(0x1, -0x12, 0x0, 0x30) _lIIlIlIIIl.BackgroundColor3 = _lIIIIIIIIl _lIIlIlIIIl.BorderSizePixel = 0x0 _lIIlIlIIIl.ClipsDescendants = true _lIIlIlIIIl.Parent = _IlllIlllll local _lllIlIIlII = Instance.new("\085\073\067\111\114\110\101\114") _lllIlIIlII.CornerRadius = UDim.new(0x0, 0x8) _lllIlIIlII.Parent = _lIIlIlIIIl local _IlllIlIIlI = Instance.new("\085\073\083\116\114\111\107\101") _IlllIlIIlI.Color = _lIIllIlIll _IlllIlIIlI.Thickness = 0x1 _IlllIlIIlI.Transparency = 0.45 _IlllIlIIlI.Parent = _lIIlIlIIIl local _IllllIllII = Instance.new("\083\099\114\111\108\108\105\110\103\070\114\097\109\101") _IllllIllII.Size = UDim2.new(0x1, -0x8, 0x1, -0x4) _IllllIllII.Position = UDim2.new(0x0, 0x4, 0x0, 0x2) _IllllIllII.BackgroundTransparency = 0x1 _IllllIllII.BorderSizePixel = 0x0 _IllllIllII.ScrollBarThickness = 0x0 _IllllIllII.ScrollBarImageTransparency = 0x1 _IllllIllII.ScrollingDirection = Enum.ScrollingDirection.X _IllllIllII.AutomaticCanvasSize = Enum.AutomaticSize.X _IllllIllII.CanvasSize = UDim2.new(0x0, 0x0, 0x0, 0x0) _IllllIllII.Parent = _lIIlIlIIIl local _IIlIllIIII = Instance.new("\085\073\076\105\115\116\076\097\121\111\117\116") _IIlIllIIII.FillDirection = Enum.FillDirection.Horizontal _IIlIllIIII.HorizontalAlignment = Enum.HorizontalAlignment.Center _IIlIllIIII.VerticalAlignment = Enum.VerticalAlignment.Center _IIlIllIIII.Padding = UDim.new(0x0, 0x6) _IIlIllIIII.SortOrder = Enum.SortOrder.LayoutOrder _IIlIllIIII.Parent = _IllllIllII local function _lllllIlIII(Name, Emoji, _IllllIIIII, Order) local _lIIlIIlIII = Instance.new("\084\101\120\116\066\117\116\116\111\110") _lIIlIIlIII.Name = Name _lIIlIIlIII.Size = UDim2.new(0x0, 0x3C, 0x0, 0x26) _lIIlIIlIII.LayoutOrder = Order _lIIlIIlIII.BackgroundColor3 = _lIIIIIIIIl _lIIlIIlIII.Text = Emoji _lIIlIIlIII.TextColor3 = _lIIlllIIll _lIIlIIlIII.Font = Enum.Font.GothamMedium _lIIlIIlIII.TextSize = 0x13 _lIIlIIlIII.AutoButtonColor = false _lIIlIIlIII.BorderSizePixel = 0x0 _lIIlIIlIII.Parent = _IllllIllII local _lllIllIlll = Instance.new("\085\073\067\111\114\110\101\114") _lllIllIlll.CornerRadius = UDim.new(0x0, 0x7) _lllIllIlll.Parent = _lIIlIIlIII local _IIllIllIIl = Instance.new("\085\073\083\116\114\111\107\101") _IIllIllIIl.Color = _lIIllIlIll _IIllIllIIl.Thickness = 0x1 _IIllIllIIl.Transparency = 0.75 _IIllIllIIl.Parent = _lIIlIIlIII _IllIIlIllI[Name] = { _lIIlIIlIII = _lIIlIIlIII, _IllllIIIII = _IllllIIIII } _lIIlIIlIII.MouseButton1Click:Connect( function () for _, _IIlllIIIII in pairs(_IllIIlIllI) do _IIlllIIIII.Page.Visible = false TweenService:Create( _IIlllIIIII.Button, TweenInfo.new(0.15), { BackgroundColor3 = _lIIIIIIIIl, TextColor3 = _lIIlllIIll } ):Play() end
+ _IllllIIIII.Visible = true TweenService:Create( _lIIlIIlIII, TweenInfo.new(0.15), { BackgroundColor3 = _llIIIIlIlI, TextColor3 = _IlIIIIIlll } ):Play() end
+ ) end
+ _lllllIlIII("\077\097\105\110", "\9876", _lIllllllll, 0x1) _lllllIlIII("\087\101\097\118\101", "\9729\65039", _IIlIIlllII, 0x2) _lllllIlIII("\077\105\115\099", "\9889", _llllllIlIl, 0x3) _lllllIlIII("\083\101\116\116\105\110\103\115", "\9881", _lIIlIIIllI, 0x4) _lIllllllll.Visible = true _IllIIlIllI.Main.Button.BackgroundColor3 = _llIIIIlIlI _IllIIlIllI.Main.Button.TextColor3 = _IlIIIIIlll local _IllllIllII = false local _IlIlllIlII local _lIlIlIIIll _llllIlIlII.InputBegan:Connect( function (Input) if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then _IllllIllII = true _IlIlllIlII = Input.Position _lIlIlIIIll = _IlllIlllll.Position Input.Changed:Connect( function () if Input.UserInputState == Enum.UserInputState.End then _IllllIllII = false end
+ end
+ ) end
+ end
+ ) UserInputService.InputChanged:Connect( function (Input) if not _IllllIllII then return end
+ if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then local _IlllIIIlII = Input.Position - _IlIlllIlII _IlllIlllll.Position = UDim2.new( _lIlIlIIIll.X.Scale, _lIlIlIIIll.X.Offset + _IlllIIIlII.X, _lIlIlIIIll.Y.Scale, _lIlIlIIIll.Y.Offset + _IlllIIIlII.Y ) end
+ end
+ ) local _lllIlllIll = true local _llllIlIIII = false local function _IllllIllII(State) if _llllIlIIII then return end
+ _llllIlIIII = true _lllIlllIll = State if State then _lllllIllIl.Enabled = true _IlllIlllll.Size = UDim2.new(0x0, _lIlIIlIlll - 0xA, 0x0, HEIGHT - 0xA) TweenService:Create( _IlllIlllll, TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), { Size = UDim2.new(0x0, _lIlIIlIlll, 0x0, HEIGHT) } ):Play() else local _IlIlIlIIIl = TweenService:Create( _IlllIlllll, TweenInfo.new(0.15, Enum.EasingStyle.Quint, Enum.EasingDirection.In), { Size = UDim2.new(0x0, _lIlIIlIlll - 0xA, 0x0, HEIGHT - 0xA) } ) _IlIlIlIIIl:Play() _IlIlIlIIIl.Completed:Connect( function () if not _lllIlllIll then _lllllIllIl.Enabled = false end
+ end
+ ) end
+ task.delay(0.18, function () _llllIlIIII = false end
+ ) end
+ UserInputService.InputBegan:Connect( function (Input, GameProcessed) if GameProcessed then return end
+ if Input.KeyCode == Enum.KeyCode.M then _IllllIllII( not _lllIlllIll) end
+ end
+ ) _IlllIlllll.Size = UDim2.new(0x0, _lIlIIlIlll - 0xF, 0x0, HEIGHT - 0xF) TweenService:Create( _IlllIlllll, TweenInfo.new(0.3, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), { Size = UDim2.new(0x0, _lIlIIlIlll, 0x0, HEIGHT) } ):Play() end
+ )(...)
